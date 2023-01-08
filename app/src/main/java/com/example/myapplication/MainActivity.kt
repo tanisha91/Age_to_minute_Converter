@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
                 }
             },
         cYear,cMonth,cDays )
-   dpd.datePicker.maxDate=System.currentTimeMillis()-864000000
+   dpd.datePicker.maxDate=System.currentTimeMillis()- 86400000
        dpd.show()
     }
 }
